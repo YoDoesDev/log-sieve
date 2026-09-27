@@ -1,0 +1,24 @@
+{
+  "name": "logsieve",
+  "version": "1.0.0",
+  "description": "High-throughput log sanitization middle",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/sanitizer.test.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "security",
+    "sanitizer",
+    "logs"
+  ],
+  "author": "Yosef Francis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
